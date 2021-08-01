@@ -12,14 +12,14 @@ double regular(int &);
 
 int main(){
   // size of arrays to hold employees
-  const int SZ = 55;
+  const int SZ = 10;
 
   string fName[SZ], lName[SZ];
 
   double hours[SZ], rate[SZ];
 
   int arrSize = sizeof(fName) / sizeof(fName[0]);
-
+  cout << arrSize << endl;
   bool screenonly = false;
 
   ifstream inputFile;
