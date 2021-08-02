@@ -79,7 +79,7 @@ int main(){
           cout << " output file will only be sent to the screen\n";
         }
 
-        cout << "-------------------------------------------------------------\n";
+        cout << "----------------------------------------------------------------------------------\n";
         cout << left << "Name" << setw(15) << " "
              << "Hours" << setw(8) << " "
              << "Rate" << setw(8) << " "
@@ -94,7 +94,7 @@ int main(){
                << setw(12) << tax[i]
                << netPay[i] << endl;
         }
-        cout << "-------------------------------------------------------------\n";
+        cout << "----------------------------------------------------------------------------------\n";
         break;
       }
       case 2:
@@ -119,8 +119,8 @@ int main(){
         cout << "Overtime Report\n";
         for(int i = 0; i < arrSize; i++){
           if(hours[i] > 40){
-            cout << string(fName[i] + ' ' + lName[i])
-                 << setw(13) << fixed << setprecision(0) << hours[i] << " hours\n";
+            cout << setw(15) << string(fName[i] + ' ' + lName[i])
+                 << fixed << setprecision(0) << hours[i] << " hours\n";
           }
         }
         cout << "--------------------------\n";
