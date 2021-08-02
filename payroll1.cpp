@@ -43,11 +43,16 @@ int main(){
     
   outputFile.open("output.txt");
   if (outputFile.is_open()){
-    outputFile << "Name            Hours        Rate        Regular      Overtime     Gross\n\n";
+    outputFile << left << "Name" << setw(15) << " " 
+               << "Hours" << setw(8) << " " 
+               << "Rate" << setw(8) << " "
+               << "Regular" << setw(8) << " "
+               << "Overtime" << setw(8) << " "
+               << "Gross\n\n";
     for (int i = 0; i < arrSize; i++){
-      outputFile << left << fName[i] << " " << lName[i] << setw(12) << " "
-      << setw(5) << fixed << right << rate[i] << " "
-      << setw(5) << fixed << right << hours[i] << " \n";
+      outputFile << setw(19) << string(fName[i] + ' ' + lName[i])
+                 << setw(13) << fixed << setprecision(2) << rate[i]
+                 << hours[i] << endl;
     }
   }else{
     screenonly = true;
@@ -55,17 +60,22 @@ int main(){
     cout << " output file will only be sent to the screen\n";
   }
 
-    cout << "Name          Hours        Rate        Regular      Overtime     Gross\n";
-    for (int i = 0; i < arrSize; i++)
-    {
-      cout << left << fName[i] << " " << lName[i] << setw(12) << " "
-                 << setw(5) << fixed << right << rate[i] << " "
-                 << setw(5) << fixed << right << hours[i] << " \n";
-    }
+  cout << left << "Name" << setw(15) << " "
+             << "Hours" << setw(8) << " "
+             << "Rate" << setw(8) << " "
+             << "Regular" << setw(8) << " "
+             << "Overtime" << setw(8) << " "
+             << "Gross\n\n";
+  for (int i = 0; i < arrSize; i++){
+    cout << setw(19) << string(fName[i] + ' ' + lName[i])
+         << setw(13) << fixed << setprecision(2) << rate[i]
+         << hours[i] << endl;
+  }
 
-     inputFile.close();
-     cout << "\nInput file closed\n\n";
-     if (!screenonly) outputFile.close(); 
+    inputFile.close();
+    cout << "\nInput file closed\n\n";
+    if (!screenonly)
+      outputFile.close(); 
     return 0;
 }
 /*

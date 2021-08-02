@@ -1,12 +1,12 @@
-Name            Hours        Rate        Regular      Overtime     Gross
+Name               Hours        Rate        Regular        Overtime        Gross
 
-Anders Alex            13.250000 37.000000 
-Botch Beth            11.250000 35.000000 
-Cross Brian            14.350000 38.000000 
-Doe John            15.750000 35.000000 
-Eyre Jane            20.000000 42.000000 
-Falls Frank            18.500000 45.000000 
-Gall George            17.000000 25.000000 
-Hicks Heath            12.750000 33.000000 
-Jacob John            15.500000 33.500000 
-Ihle Ike            16.500000 37.500000 
+Anders Alex        13.25        37.00
+Botch Beth         11.25        35.00
+Cross Brian        14.35        38.00
+Doe John           15.75        35.00
+Eyre Jane          20.00        42.00
+Falls Frank        18.50        45.00
+Gall George        17.00        25.00
+Hicks Heath        12.75        33.00
+Jacob John         15.50        33.50
+Ihle Ike           16.50        37.50
