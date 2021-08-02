@@ -1,12 +1,12 @@
-Name               Hours        Rate        Regular        Overtime        Gross
+Name               Hours        Rate        Gross        Taxes        Net
 
-Anders Alex        13.25        37.00
-Botch Beth         11.25        35.00
-Cross Brian        14.35        38.00
-Doe John           15.75        35.00
-Eyre Jane          20.00        42.00
-Falls Frank        18.50        45.00
-Gall George        17.00        25.00
-Hicks Heath        12.75        33.00
-Jacob John         15.50        33.50
-Ihle Ike           16.50        37.50
+Anders Alex        13.25        37.00       490.25       99.03       391.22
+Botch Beth         11.25        35.00       393.75       79.54       314.21
+Cross Brian        14.35        38.00       545.30       110.15      435.15
+Doe John           15.75        35.00       551.25       111.35      439.90
+Eyre Jane          20.00        42.00       840.00       169.68      670.32
+Falls Frank        18.50        45.00       832.50       168.16      664.34
+Gall George        17.00        25.00       425.00       85.85       339.15
+Hicks Heath        12.75        33.00       420.75       84.99       335.76
+Jacob John         15.50        33.50       519.25       104.89      414.36
+Ihle Ike           16.50        37.50       618.75       124.99      493.76
